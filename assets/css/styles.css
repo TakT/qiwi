@@ -329,8 +329,11 @@ ul.opacityHover.list-inline li a:hover img {
 	padding-right: 15px;
 }
 
-.countryChanger .countryActive{
+.countryChanger .countryActiveWrapp {
 	padding: 0;
+}
+
+.countryChanger .countryActive {
 	padding-right: 10px;
 }
 
