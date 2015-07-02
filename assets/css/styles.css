@@ -14,12 +14,14 @@ html {
 	min-height: 100%;
 }
 
-a {
+a,
+.btn-link {
 	color: #006ac8;
 	text-decoration: none;
 }
 
-a:hover {
+a:hover,
+.btn-link:hover {
 	text-decoration: underline;
 }
 
@@ -75,6 +77,10 @@ select {
 .btn.btn-default:active {
 	background-color: #283991;
 	color: #fdfffe;
+}
+
+.dropdown-menu {
+	border-radius: 0px;
 }
 
 .positionRelative {
@@ -240,6 +246,16 @@ select {
 	font-size: 15px;
 }
 
+.footer .btn-link {
+	color: #6b6b6b;
+}
+
+.footer .btn-link:hover,
+.footer .btn-link:focus,
+.footer .btn-link:active {
+	text-decoration: none;
+}
+
 .footer ul.list-inline {
 	margin: 0 0 33px;
 }
@@ -313,13 +329,12 @@ ul.opacityHover.list-inline li a:hover img {
 	padding-right: 15px;
 }
 
-.countryChanger .countryActive {
-		width: 18px;
-		height: 12px;
-		position: absolute;
-		display: none;
+.countryChanger .countryActive{
+	padding: 0;
+	padding-right: 10px;
 }
 
-.countryChanger .countryActive.country-ru {
-	background: #e3e3e3 url(../images/footer/ru.png);
+.countryChanger img {
+	padding-right: 10px;
+	vertical-align: baseline;
 }
