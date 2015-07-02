@@ -77,6 +77,10 @@ select {
 	color: #fdfffe;
 }
 
+.positionRelative {
+	position: relative;
+}
+
 .container {
 	width: auto;
 	max-width: 1210px;
@@ -120,6 +124,23 @@ select {
 	padding-top: 6px;
 	color: #211d1c;
 	font-size: 18px;
+}
+
+.authForm .countryPhoneChanger input {
+	padding-left: 40px;
+}
+
+.countryPhoneChanger .countryActive {
+	width: 18px;
+	height: 12px;
+	position: absolute;
+	top: 50%;
+	left: 25px;
+	margin-top: -6px;
+}
+
+.countryPhoneChanger .countryRU {
+	background: #e3e3e3 url(../images/footer/ru.png);
 }
 
 .section .sectionTitle {
@@ -223,18 +244,18 @@ select {
 	margin: 0 0 33px;
 }
 
-.footer ul li {
+.footer ul.list-inline li {
 	margin: 0 2.5% 0 0;
 	padding: 0;
 }
 
-.footer ul li a {
+.footer ul.list-inline li a {
 	color: #6b6b6b;
 	font-size: 15px;
 	font-weight: 100;
 }
 
-.footer ul li a:hover {
+.footer ul.list-inline li a:hover {
 	color: #000;
 	text-decoration: none;
 }
@@ -248,42 +269,57 @@ select {
 	color: #666;
 }
 
-ul.opacityHover li a img {
+ul.opacityHover.list-inline li a img {
 	opacity: 0.4;
 }
 
-ul.opacityHover li a:hover img {
+ul.opacityHover.list-inline li a:hover img {
 	opacity: 1;
 }
 
-.contactsSocial ul li a img {
+.contactsSocial ul.list-inline li a img {
 	width: 20px;
 }
 
-.contactsSocial ul li {
+.contactsSocial ul.list-inline li {
 	margin: 0 0 0 16px;
 }
 
-.qiwiApps ul li {
+.qiwiApps ul.list-inline li {
 	margin: 0 35px 0 0;
 }
 
-.paymentTypes ul li {
+.paymentTypes ul.list-inline li {
 	margin: 0 0 0 15px;
 }
 
-.qiwiApps ul li {
+.qiwiApps ul.list-inline li {
 	margin: 0 35px 0 0;
 }
 
-.qiwiApps ul li a img {
+.qiwiApps ul.list-inline li a img {
 	width: 90px;
 }
 
-.paymentTypes ul li a img {
+.paymentTypes ul.list-inline li a img {
 	width: 60px;
+}
+
+.copyrightBlock {
+	margin-bottom: 20px;
 }
 
 .copyright {
 	padding-right: 15px;
+}
+
+.countryChanger .countryActive {
+		width: 18px;
+		height: 12px;
+		position: absolute;
+		display: none;
+}
+
+.countryChanger .countryActive.country-ru {
+	background: #e3e3e3 url(../images/footer/ru.png);
 }
