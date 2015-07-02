@@ -1,0 +1,243 @@
+html, body {
+	font: 18px/100% 'PT Sans', Arial, sans-serif;
+	color: #000;
+}
+
+body {
+	padding-top: 25px;
+}
+
+a {
+	color: #006ac8;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="phone"],
+textarea {
+	border: 3px solid #d6d6d6;
+	border-radius: 0px;
+	color: #6d6d6d;
+	height: 40px;
+	font-size: 20px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="phone"]:focus,
+textarea:focus {
+	border-color: #ffa834;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.btn {
+	border-radius: 0px;
+	padding: 9px 20px;
+}
+
+.btn.btn-default {
+	color: #fdfffe;
+	background-color: #283991;
+	border-color: #283991;
+}
+
+.btn.btn-default:hover {
+	opacity: 0.8;
+}
+
+.btn.btn-default:active {
+	background-color: #283991;
+	color: #fdfffe;
+}
+
+#header > .container {
+	max-width: 1570px;
+	padding: 0;
+}
+
+#header .logo {
+	padding-left: 0px;
+}
+
+#header .logo img {
+	height: 100px;
+}
+
+.authForm .formTitle {
+	padding-left: 15px;
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+
+.authForm .form-group {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.authForm .formTitles .form-group {
+	margin-bottom: 0px;
+}
+
+.authForm .btn-link.helpLink {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 6px;
+	color: #211d1c;
+	font-size: 18px;
+}
+
+.section .sectionTitle {
+	font-size: 45px;
+}
+
+#mainCase {
+	margin-top: 25px;
+	margin-bottom: 43px;
+}
+
+#advantagesCase {
+	padding: 24px 0px;
+	background: #aee4fe;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2FlZTRmZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM2Y2QxZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #aee4fe 0%, #6cd1ff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#aee4fe), color-stop(100%,#6cd1ff));
+	background: -webkit-linear-gradient(top,  #aee4fe 0%,#6cd1ff 100%);
+	background: -o-linear-gradient(top,  #aee4fe 0%,#6cd1ff 100%);
+	background: -ms-linear-gradient(top,  #aee4fe 0%,#6cd1ff 100%);
+	background: linear-gradient(to bottom,  #aee4fe 0%,#6cd1ff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aee4fe', endColorstr='#6cd1ff',GradientType=0 );
+}
+
+#advantagesCase .container {
+	max-width: 700px;
+}
+
+.advantages {
+	margin-bottom: 70px;
+	display: table;
+	width: 100%;
+	padding: 0;
+}
+
+.advantages .advantagesItem {
+	color: #070e14;
+	line-height: 19px;
+	font-size: 14px;
+	display: table-cell;
+}
+
+.advantages .advantagesItem img {
+	width: 50px;
+	margin-bottom: 15px;
+}
+
+#advantagesCase .sectionTitle {
+	font-size: 40px;
+	margin-bottom: 55px;
+}
+
+#advantagesCase .sectionTitle img {
+	vertical-align: sub;
+}
+
+#advantagesCase .sectionDesc {
+	font-size: 23px;
+	line-height: 26px;
+	margin-bottom: 75px;
+}
+
+.registrationForm {
+	margin-bottom: 41px;
+}
+
+.registrationForm input,
+.registrationForm [type="submit"] {
+	height: 55px;
+}
+
+.registrationForm [type="submit"],
+.registrationForm input {
+	border-color: #ffa101;
+}
+
+.registrationForm [type="submit"] {
+	background-color: #ffa101;
+	font-size: 27px;
+	line-height: 27px;
+}
+
+.registrationForm [type="submit"]:active {
+	background-color: #ffa101;
+	color: #fdfffe;
+}
+
+.footer ul.list-inline {
+	margin: 0 0 33px;
+}
+
+.footer ul li {
+	margin: 0 2.5% 0 0;
+	padding: 0;
+}
+
+.footer ul li a {
+	color: #6b6b6b;
+	font-size: 15px;
+	font-weight: 100;
+}
+
+.footer ul li a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.contactsPhone {
+	margin: 0 0 20px;
+	text-align: right;
+	font-size: 25px;
+	font-weight: 100;
+	line-height: .8;
+	color: #666;
+}
+
+ul.opacityHover li a img {
+	opacity: 0.4;
+}
+
+ul.opacityHover li a:hover img {
+	opacity: 1;
+}
+
+.contactsSocial ul li a img {
+	width: 20px;
+}
+
+.qiwiApps ul li {
+	margin: 0 35px 0 0;
+}
+
+.paymentTypes ul li {
+	margin: 0 0 0 15px;
+}
+
+.qiwiApps ul li {
+	margin: 0 35px 0 0;
+}
+
+.qiwiApps ul li a img {
+	width: 90px;
+}
+
+.paymentTypes ul li a img {
+	width: 60px;
+}
