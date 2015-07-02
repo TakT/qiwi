@@ -1,265 +1,275 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="description" content="">
-    <meta name="author" content="">
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-    <title>Visa - QIWI Wallet</title>
+        <title>Visa - QIWI Wallet</title>
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-    <!-- Custom styles for this template -->
-    <link href="./assets/css/sticky-footer.css" rel="stylesheet">
-    <link href="./assets/css/styles.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="./assets/css/styles.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+        <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+        <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+        <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-  </head>
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    </head>
 
-  <body>
+    <body>
 
-    <header id="header">
-      <!-- Begin page content -->
-      <div class="container">
-        <div class="col-sm-3 logo">
-          <a href="index.html" title="Visa - QIWI Wallet">
-            <img src="./assets/images/logo.png" alt="Visa - QIWI Wallet" />
-          </a>
-        </div>
-        <div class="col-sm-9 authForm">
-          <form class="form pull-right col-sm-8" action="" method="POST">
-            <div class="pull-right">
-              <div class="row-fluid clearfix formTitles">
-                <div class="col-sm-4 col-sm-offset-1 form-group">
-                  <div class="formTitle">
-                    Войти в мой кошелек
-                  </div>
+        <header id="header">
+            <!-- Begin page content -->
+            <div class="container">
+                <div class="col-sm-3 logo">
+                    <a href="index.html" title="Visa - QIWI Wallet">
+                        <img src="./assets/images/logo.png" alt="Visa - QIWI Wallet" />
+                    </a>
                 </div>
-                <div class="col-sm-5 form-group">
-                  <div class="formTitle">
-                    <a href="javascript:void(0);" title="Забыли пароль?">Забыли пароль?</a>
-                  </div>
+                <div class="col-sm-9 authForm">
+                    <form class="form pull-right col-sm-8" action="" method="POST">
+                        <div class="pull-right">
+                            <div class="row-fluid clearfix formTitles">
+                                <div class="col-sm-4 col-sm-offset-1 form-group">
+                                    <div class="formTitle">
+                                        Войти в мой кошелек
+                                    </div>
+                                </div>
+                                <div class="col-sm-5 form-group">
+                                    <div class="formTitle">
+                                        <a href="javascript:void(0);" title="Забыли пароль?">Забыли пароль?</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-fluid clearfix">
+                                <div class="col-sm-4 col-sm-offset-1 form-group">
+                                    <input type="phone" class="form-control" name="login[phone]" required placeholder="+7">
+                                </div>
+                                <div class="col-sm-5 form-group">
+                                    <div class="input-group">
+                                        <input type="password" class="form-control" name="login[password]" required placeholder="Пароль">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-default" type="submit">Войти</button>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-2 form-group">
+                                    <a class="btn btn-link helpLink" href="javascript:void(0);">Помощь</a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
                 </div>
-              </div>
-              <div class="row-fluid clearfix">
-                <div class="col-sm-4 col-sm-offset-1 form-group">
-                  <input type="phone" class="form-control" name="login[phone]" required placeholder="+7">
+            </div>
+        </header>
+
+        <section id="mainCase" class="container section">
+            <h1 class="sectionTitle text-center">Добро пожаловать в QIWI Кошелек</h1>
+        </section>
+
+        <section id="advantagesCase" class="section">
+            <div class="container">
+                
+                <div class="advantages row text-center">
+                    <div class="advantagesItem">
+                        <img src="./assets/images/icon_1.png" alt="Новый дизайн и чистый интерфейс">
+                        <div>Новый дизайн<br />и чистый интерфейс</div>
+                    </div>
+                    <div class="advantagesItem">
+                        <img src="./assets/images/icon_2.png" alt="Легкое управление средствами">
+                        <div>Легкое управление<br />средствами</div>
+                    </div>
+                    <div class="advantagesItem">
+                        <img src="./assets/images/icon_3.png" alt="Трехступенчатая защита платежных систем">
+                        <div>Трехступенчатая защита<br />платежных систем</div>
+                    </div>
                 </div>
-                <div class="col-sm-5 form-group">
-                  <div class="input-group">
-                    <input type="password" class="form-control" name="login[password]" required placeholder="Пароль">
-                    <span class="input-group-btn">
-                      <button class="btn btn-default" type="submit">Войти</button>
-                    </span>
-                  </div>
+
+                <div class="row">
+                    <div class="sectionTitle text-center">
+                        <span>Кошелек нужен игроку</span>
+                        <span>
+                            <img src="./assets/images/logo_wormix.png" alt="Кошелек нужен игроку Wormix" />
+                        </span>
+                        <span>для...</span>
+                    </div>
                 </div>
-                <div class="col-sm-2 form-group">
-                  <a class="btn btn-link helpLink" href="javascript:void(0);">Помощь</a>
+
+                <div class="row">
+                    <div class="sectionDesc">
+                        Оплаты мобильного, покупок в соц. сетях и играх <b>без комиссии,</b><br />
+                        а также совершения любых платежей в Интернете быстро и удобно.
+                    </div>
                 </div>
-              </div>
+
+                <div class="row">
+                    <form class="registrationForm" action="" method="POST">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control" required name="registration[email]">
+                            </div>
+                            <div class="col-sm-6">
+                                <button type="submit" class="btn btn-default btn-block">Зарегестрироваться</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
             </div>
-          </form>
-        </div>
-      </div>
-    </header>
+        </section>
 
-    <section id="mainCase" class="container section">
-      <h1 class="sectionTitle text-center">Добро пожаловать в QIWI Кошелек</h1>
-    </section>
-
-    <section id="advantagesCase" class="section">
-      <div class="container">
-        
-        <div class="advantages row text-center">
-          <div class="advantagesItem">
-            <img src="./assets/images/icon_1.png" alt="Новый дизайн и чистый интерфейс">
-            <div>Новый дизайн<br />и чистый интерфейс</div>
-          </div>
-          <div class="advantagesItem">
-            <img src="./assets/images/icon_2.png" alt="Легкое управление средствами">
-            <div>Легкое управление<br />средствами</div>
-          </div>
-          <div class="advantagesItem">
-            <img src="./assets/images/icon_3.png" alt="Трехступенчатая защита платежных систем">
-            <div>Трехступенчатая защита<br />платежных систем</div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="sectionTitle text-center">
-            <span>Кошелек нужен игроку</span>
-            <span>
-              <img src="./assets/images/logo_wormix.png" alt="Кошелек нужен игроку Wormix" />
-            </span>
-            <span>для...</span>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="sectionDesc">
-            Оплаты мобильного, покупок в соц. сетях и играх <b>без комиссии,</b><br />
-            а также совершения любых платежей в Интернете быстро и удобно.
-          </div>
-        </div>
-
-        <div class="row">
-          <form class="registrationForm" action="" method="POST">
-            <div class="row">
-              <div class="col-sm-6">
-                <input type="text" class="form-control" required name="registration[email]">
-              </div>
-              <div class="col-sm-6">
-                <button type="submit" class="btn btn-default btn-block">Зарегестрироваться</button>
-              </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-9">
+                        <nav>
+                            <ul class="list-inline">
+                                <li>
+                                    <a href="javascript:void(0);" title="Карта QIWI терминалов">Карта QIWI терминалов</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" title="Безопасность">Безопасность</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" title="Идентификация">Идентификация</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" title="Помощь">Помощь</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" title="Оферты">Оферты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <nav>
+                            <ul class="list-inline">
+                                <li>
+                                    <a href="javascript:void(0);" title="Контакты">Контакты</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" title="Бизнесу">Бизнесу</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" title="Инвесторам">Инвесторам</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" title="КИВИ Банк">КИВИ Банк</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-sm-3 contacts">
+                        <div class="contactsPhone">8 800 707-77-59</div>
+                        <div class="contactsSocial">
+                            <ul class="list-inline text-right opacityHover">
+                                <li>
+                                    <a class="contactsSocial vkontakte" href="https://vk.com/qiwirussia" title="ВКонтакте" target="_blank">
+                                        <img src="./assets/images/footer/vkontakte.png" alt="ВКонтакте" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="contactsSocial odniklassniki" href="http://ok.ru/qiwirussia" title="Одноклассники" target="_blank">
+                                        <img src="./assets/images/footer/odnoklassniki.png" alt="Одноклассники" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="contactsSocial youtube" href="http://www.youtube.com/user/QiwiRussia" title="YouTube" target="_blank">
+                                        <img src="./assets/images/footer/youtube.png" alt="YouTube" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="contactsSocial twitter" href="https://twitter.com/qiwirussia" title="Twitter" target="_blank">
+                                        <img src="./assets/images/footer/twitter.png" alt="Twitter" />
+                                    </a>
+                                <li>
+                                    <a class="contactsSocial facebook" href="https://www.facebook.com/QiwiRussia" title="Facebook" target="_blank">
+                                        <img src="./assets/images/footer/facebook.png" alt="Facebook" />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="qiwiApps">
+                            <ul class="list-inline opacityHover">
+                                <li>
+                                    <a class="contactsSocial" href="javascript:void(0);" title="AppStore" target="_blank">
+                                        <img src="./assets/images/footer/app.png" alt="AppStore" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="contactsSocial" href="javascript:void(0);" title="Play Market" target="_blank">
+                                        <img src="./assets/images/footer/google-plus.png" alt="Play Market" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="contactsSocial" href="javascript:void(0);" title="Microsoft Store" target="_blank">
+                                        <img src="./assets/images/footer/microsoft.png" alt="Microsoft Store" />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="paymentTypes">
+                            <ul class="list-inline text-right opacityHover">
+                                <li>
+                                    <a class="contactsSocial" href="javascript:void(0);" title="pci" target="_blank">
+                                        <img src="./assets/images/footer/pci.png" alt="pci" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="contactsSocial" href="javascript:void(0);" title="kaspersky" target="_blank">
+                                        <img src="./assets/images/footer/kaspersky.png" alt="kaspersky" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="contactsSocial" href="javascript:void(0);" title="visa" target="_blank">
+                                        <img src="./assets/images/footer/visa.png" alt="visa" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="contactsSocial" href="javascript:void(0);" title="master-card" target="_blank">
+                                        <img src="./assets/images/footer/master-card.png" alt="master-card" />
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-10">
+                        <select>
+                            <option>Русский</option>
+                            <option>Английский</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-2 text-right">
+                        <div class="copyright">&copy; QIWI, 2015</div>
+                    </div>
+                </div>
             </div>
-          </form>
-        </div>
+        </footer>
 
-      </div>
-    </section>
-
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-9">
-            <nav>
-              <ul class="list-inline">
-                  <li>
-                      <a href="javascript:void(0);" title="Карта QIWI терминалов">Карта QIWI терминалов</a>
-                  </li>
-                  <li>
-                      <a href="javascript:void(0);" title="Безопасность">Безопасность</a>
-                  </li>
-                  <li>
-                      <a href="javascript:void(0);" title="Идентификация">Идентификация</a>
-                  </li>
-                  <li>
-                      <a href="javascript:void(0);" title="Помощь">Помощь</a>
-                  </li>
-                  <li>
-                      <a href="javascript:void(0);" title="Оферты">Оферты</a>
-                  </li>
-              </ul>
-            </nav>
-            <nav>
-              <ul class="list-inline">
-                  <li>
-                      <a href="javascript:void(0);" title="Контакты">Контакты</a>
-                  </li>
-                  <li>
-                      <a href="javascript:void(0);" title="Бизнесу">Бизнесу</a>
-                  </li>
-                  <li>
-                      <a href="javascript:void(0);" title="Инвесторам">Инвесторам</a>
-                  </li>
-                  <li>
-                      <a href="javascript:void(0);" title="КИВИ Банк">КИВИ Банк</a>
-                  </li>
-              </ul>
-            </nav>
-          </div>
-          <div class="col-sm-3 contacts">
-            <div class="contactsPhone">8 800 707-77-59</div>
-            <div class="contactsSocial">
-              <ul class="list-inline text-right opacityHover">
-                <li>
-                  <a class="contactsSocial vkontakte" href="https://vk.com/qiwirussia" title="ВКонтакте" target="_blank">
-                    <img src="./assets/images/footer/vkontakte.png" alt="ВКонтакте" />
-                  </a>
-                </li>
-                <li>
-                  <a class="contactsSocial odniklassniki" href="http://ok.ru/qiwirussia" title="Одноклассники" target="_blank">
-                    <img src="./assets/images/footer/odnoklassniki.png" alt="Одноклассники" />
-                  </a>
-                </li>
-                <li>
-                  <a class="contactsSocial youtube" href="http://www.youtube.com/user/QiwiRussia" title="YouTube" target="_blank">
-                    <img src="./assets/images/footer/youtube.png" alt="YouTube" />
-                  </a>
-                </li>
-                <li>
-                  <a class="contactsSocial twitter" href="https://twitter.com/qiwirussia" title="Twitter" target="_blank">
-                    <img src="./assets/images/footer/twitter.png" alt="Twitter" />
-                  </a>
-                <li>
-                  <a class="contactsSocial facebook" href="https://www.facebook.com/QiwiRussia" title="Facebook" target="_blank">
-                    <img src="./assets/images/footer/facebook.png" alt="Facebook" />
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-5">
-            <div class="qiwiApps">
-              <ul class="list-inline opacityHover">
-                <li>
-                  <a class="contactsSocial" href="javascript:void(0);" title="AppStore" target="_blank">
-                    <img src="./assets/images/footer/app.png" alt="AppStore" />
-                  </a>
-                </li>
-                <li>
-                  <a class="contactsSocial" href="javascript:void(0);" title="Play Market" target="_blank">
-                    <img src="./assets/images/footer/google-plus.png" alt="Play Market" />
-                  </a>
-                </li>
-                <li>
-                  <a class="contactsSocial" href="javascript:void(0);" title="Microsoft Store" target="_blank">
-                    <img src="./assets/images/footer/microsoft.png" alt="Microsoft Store" />
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-sm-7">
-            <div class="paymentTypes">
-              <ul class="list-inline text-right opacityHover">
-                <li>
-                  <a class="contactsSocial" href="javascript:void(0);" title="pci" target="_blank">
-                    <img src="./assets/images/footer/pci.png" alt="pci" />
-                  </a>
-                </li>
-                <li>
-                  <a class="contactsSocial" href="javascript:void(0);" title="kaspersky" target="_blank">
-                    <img src="./assets/images/footer/kaspersky.png" alt="kaspersky" />
-                  </a>
-                </li>
-                <li>
-                  <a class="contactsSocial" href="javascript:void(0);" title="visa" target="_blank">
-                    <img src="./assets/images/footer/visa.png" alt="visa" />
-                  </a>
-                </li>
-                <li>
-                  <a class="contactsSocial" href="javascript:void(0);" title="master-card" target="_blank">
-                    <img src="./assets/images/footer/master-card.png" alt="master-card" />
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  </body>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    </body>
 </html>

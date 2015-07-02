@@ -5,6 +5,13 @@ html, body {
 
 body {
 	padding-top: 25px;
+	/* Margin bottom by footer height */
+	margin-bottom: 245px;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
 }
 
 a {
@@ -29,6 +36,12 @@ textarea {
 	font-size: 20px;
 }
 
+textarea {
+	min-height: 150px;
+	width: 100%;
+	min-width: 100%;
+}
+
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
@@ -38,6 +51,10 @@ textarea:focus {
 	border-color: #ffa834;
 	-webkit-box-shadow: none;
 	box-shadow: none;
+}
+
+select {
+	border: none;
 }
 
 .btn {
@@ -58,6 +75,15 @@ textarea:focus {
 .btn.btn-default:active {
 	background-color: #283991;
 	color: #fdfffe;
+}
+
+.container {
+	width: auto;
+	max-width: 1210px;
+	padding: 0 15px;
+}
+.container .text-muted {
+	margin: 20px 0;
 }
 
 #header > .container {
@@ -181,6 +207,18 @@ textarea:focus {
 	color: #fdfffe;
 }
 
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 245px;
+	padding-top: 45px;
+	background-color: #fff;
+	color: #6b6b6b;
+	font-size: 15px;
+}
+
 .footer ul.list-inline {
 	margin: 0 0 33px;
 }
@@ -222,6 +260,10 @@ ul.opacityHover li a:hover img {
 	width: 20px;
 }
 
+.contactsSocial ul li {
+	margin: 0 0 0 16px;
+}
+
 .qiwiApps ul li {
 	margin: 0 35px 0 0;
 }
@@ -240,4 +282,8 @@ ul.opacityHover li a:hover img {
 
 .paymentTypes ul li a img {
 	width: 60px;
+}
+
+.copyright {
+	padding-right: 15px;
 }
