@@ -35,36 +35,35 @@
                     </a>
                 </div>
                 <div class="col-sm-9 authForm">
-                    <form class="form pull-right col-sm-8" action="" method="POST">
-                        <div class="pull-right">
-                            <div class="row-fluid clearfix formTitles">
-                                <div class="col-sm-4 col-sm-offset-1 form-group">
-                                    <div class="formTitle">
-                                        Войти в мой кошелек
-                                    </div>
-                                </div>
-                                <div class="col-sm-5 form-group">
-                                    <div class="formTitle">
-                                        <a href="javascript:void(0);" title="Забыли пароль?">Забыли пароль?</a>
-                                    </div>
+                    <form class="form pull-right pull-right-none-xs col-sm-8 col-padding-none-xs" action="" method="POST">
+                        <div class="row-fluid clearfix formTitles hidden-xs">
+                            <div class="col-sm-4 col-sm-offset-1 form-group">
+                                <div class="formTitle">
+                                    Войти в мой кошелек
                                 </div>
                             </div>
-                            <div class="row-fluid clearfix">
-                                <div class="col-sm-4 col-sm-offset-1 form-group countryPhoneChanger positionRelative">
-                                    <div class="countryActive countryRU"></div>
-                                    <input type="phone" class="form-control" name="login[phone]" required placeholder="+7" value="+7">
+                            <div class="col-sm-5 form-group">
+                                <div class="formTitle">
+                                    <a href="javascript:void(0);" title="Забыли пароль?">Забыли пароль?</a>
                                 </div>
-                                <div class="col-sm-5 form-group">
-                                    <div class="input-group">
-                                        <input type="password" class="form-control" name="login[password]" required placeholder="Пароль">
-                                        <span class="input-group-btn">
-                                            <button class="btn btn-default" type="submit">Войти</button>
-                                        </span>
-                                    </div>
+                            </div>
+                        </div>
+                        <div class="row-fluid clearfix">
+                            <div class="col-sm-4 col-sm-offset-1 form-group countryPhoneChanger positionRelative hidden-xs">
+                                <div class="countryActive countryRU"></div>
+                                <input type="phone" class="form-control" name="login[phone]" required placeholder="+7" value="+7">
+                            </div>
+                            <div class="col-sm-5 form-group hidden-xs">
+                                <div class="input-group">
+                                    <input type="password" class="form-control" name="login[password]" required placeholder="Пароль">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default" type="submit">Войти</button>
+                                    </span>
                                 </div>
-                                <div class="col-sm-2 form-group">
-                                    <a class="btn btn-link helpLink" href="javascript:void(0);">Помощь</a>
-                                </div>
+                            </div>
+                            <div class="col-sm-2 col-padding-none-xs form-group">
+                                <a class="btn btn-link helpLink visible-xs" href="javascript:void(0);" title="Войти">Войти</a>
+                                <a class="btn btn-link helpLink" href="javascript:void(0);" title="Помощь">Помощь</a>
                             </div>
                         </div>
                     </form>
@@ -73,7 +72,7 @@
         </header>
 
         <section id="mainCase" class="container section">
-            <h1 class="sectionTitle text-center">Добро пожаловать в QIWI Кошелек</h1>
+            <h1 class="sectionTitle text-center">Добро пожаловать в QIWI <span>Кошелек</span></h1>
         </section>
 
         <section id="advantagesCase" class="section">
@@ -82,20 +81,20 @@
                 <div class="advantages row text-center">
                     <div class="advantagesItem">
                         <img src="./assets/images/icon_1.png" alt="Новый дизайн и чистый интерфейс">
-                        <div>Новый дизайн<br />и чистый интерфейс</div>
+                        <div>Новый дизайн и чистый интерфейс</div>
                     </div>
                     <div class="advantagesItem">
                         <img src="./assets/images/icon_2.png" alt="Легкое управление средствами">
-                        <div>Легкое управление<br />средствами</div>
+                        <div>Легкое управление средствами</div>
                     </div>
                     <div class="advantagesItem">
                         <img src="./assets/images/icon_3.png" alt="Трехступенчатая защита платежных систем">
-                        <div>Трехступенчатая защита<br />платежных систем</div>
+                        <div>Трехступенчатая защита платежных систем</div>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="sectionTitle text-center">
+                    <div class="col-sm-12 sectionTitle text-center">
                         <span>Кошелек нужен игроку</span>
                         <span>
                             <img src="./assets/images/logo_wormix.png" alt="Кошелек нужен игроку Wormix" />
@@ -105,14 +104,14 @@
                 </div>
 
                 <div class="row">
-                    <div class="sectionDesc">
+                    <div class="col-sm-12 sectionDesc">
                         Оплаты мобильного, покупок в соц. сетях и играх <b>без комиссии,</b><br />
                         а также совершения любых платежей в Интернете быстро и удобно.
                     </div>
                 </div>
 
                 <div class="row">
-                    <form class="registrationForm" action="" method="POST">
+                    <form class="col-sm-12 registrationForm" action="" method="POST">
                         <div class="row">
                             <div class="col-sm-6">
                                 <input type="text" class="form-control" required name="registration[email]">
@@ -127,7 +126,7 @@
             </div>
         </section>
 
-        <footer class="footer">
+        <footer class="footer hidden-xs">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-9">

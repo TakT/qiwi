@@ -341,3 +341,91 @@ ul.opacityHover.list-inline li a:hover img {
 	padding-right: 10px;
 	vertical-align: baseline;
 }
+
+@media (max-width: 768px) {
+
+	body {
+		margin-bottom: 0px;
+	}
+
+	.pull-right-none-xs {
+		float: none !important;
+	}
+
+	.col-padding-none-xs {
+		padding: 0 !important;
+	}
+
+	#header .logo {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	#header .logo img {
+		height: auto;
+		text-align: center;
+	}
+
+	.authForm .btn-link.helpLink {
+		display: block;
+		background-color: #283991;
+		border-color: #283991;
+		color: #fdfffe;
+		width: 47%;
+		font-size: 20px;
+		line-height: 26px;
+		display: inline-block !important;
+	}
+	
+	.authForm .btn-link.helpLink:first-child {
+		float: left;
+	}
+
+	.authForm .btn-link.helpLink:last-child {
+		float: right;
+	}
+	
+	.authForm .btn-link.helpLink:hover {
+		opacity: 0.8;
+	}
+
+	#mainCase {
+		margin-top: 20px;
+		margin-bottom: 25px;
+	}
+
+	.section .sectionTitle {
+		font-size: 32px;
+		line-height: 37px;
+		margin: 0;
+	}
+
+	#mainCase .section .sectionTitle span {
+		text-transform: uppercase;
+	}
+
+	#advantagesCase {
+		padding-top: 5px;
+		background: #e3e3e3;
+	}
+
+	#advantagesCase .sectionTitle > span {
+		display: block;
+		font-size: 24px;
+	}
+
+	.advantages {
+		margin: 0;
+		margin-bottom: 30px;
+	}
+
+	.advantages .advantagesItem img {
+		margin-bottom: 0px;
+	}
+
+	.advantages .advantagesItem {
+		display: block;
+		font-size: 18px;
+		margin-bottom: 25px;
+	}
+}
