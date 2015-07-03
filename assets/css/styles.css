@@ -90,6 +90,7 @@ select {
 .container {
 	width: auto;
 	max-width: 1210px;
+	min-width: 300px;
 	padding: 0 15px;
 }
 .container .text-muted {
