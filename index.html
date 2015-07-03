@@ -37,23 +37,23 @@
                 <div class="col-sm-9 authForm">
                     <form class="form pull-right pull-right-none-xs col-sm-8 col-padding-none-xs" action="" method="POST">
                         <div class="row-fluid clearfix formTitles hidden-xs">
-                            <div class="col-sm-4 col-sm-offset-1 form-group">
+                            <div class="col-sm-5 col-md-4 col-lg-4 col-sm-offset-0 col-lg-offset-1 col-md-offset-0 form-group">
                                 <div class="formTitle">
                                     Войти в мой кошелек
                                 </div>
                             </div>
-                            <div class="col-sm-5 form-group">
+                            <div class="col-sm-5 col-md-6 col-lg-5 form-group">
                                 <div class="formTitle">
                                     <a href="javascript:void(0);" title="Забыли пароль?">Забыли пароль?</a>
                                 </div>
                             </div>
                         </div>
                         <div class="row-fluid clearfix">
-                            <div class="col-sm-4 col-sm-offset-1 form-group countryPhoneChanger positionRelative hidden-xs">
+                            <div class="col-sm-5 col-md-4 col-lg-4 col-sm-offset-0 col-lg-offset-1 col-md-offset-0 form-group countryPhoneChanger positionRelative hidden-xs">
                                 <div class="countryActive countryRU"></div>
                                 <input type="phone" class="form-control" name="login[phone]" required placeholder="+7" value="+7">
                             </div>
-                            <div class="col-sm-5 form-group hidden-xs">
+                            <div class="col-sm-5 col-md-6 col-lg-5 form-group hidden-xs">
                                 <div class="input-group">
                                     <input type="password" class="form-control" name="login[password]" required placeholder="Пароль">
                                     <span class="input-group-btn">
@@ -78,49 +78,55 @@
         <section id="advantagesCase" class="section">
             <div class="container">
                 
-                <div class="advantages row text-center">
-                    <div class="advantagesItem">
-                        <img src="./assets/images/icon_1.png" alt="Новый дизайн и чистый интерфейс">
-                        <div>Новый дизайн и чистый интерфейс</div>
-                    </div>
-                    <div class="advantagesItem">
-                        <img src="./assets/images/icon_2.png" alt="Легкое управление средствами">
-                        <div>Легкое управление средствами</div>
-                    </div>
-                    <div class="advantagesItem">
-                        <img src="./assets/images/icon_3.png" alt="Трехступенчатая защита платежных систем">
-                        <div>Трехступенчатая защита платежных систем</div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-sm-12 sectionTitle text-center">
-                        <span>Кошелек нужен игроку</span>
-                        <span>
-                            <img src="./assets/images/logo_wormix.png" alt="Кошелек нужен игроку Wormix" />
-                        </span>
-                        <span>для...</span>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-sm-12 sectionDesc">
-                        Оплаты мобильного, покупок в соц. сетях и играх <b>без комиссии,</b><br />
-                        а также совершения любых платежей в Интернете быстро и удобно.
-                    </div>
-                </div>
-
-                <div class="row">
-                    <form class="col-sm-12 registrationForm" action="" method="POST">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <input type="text" class="form-control" required name="registration[email]">
+                <div class="row advantagesWrapp">
+                    <div class="col-sm-12">
+                        <div class="advantages text-center clearfix">
+                            <div class="advantagesItem col-sm-4">
+                                <img src="./assets/images/icon_1.png" alt="Новый дизайн и чистый интерфейс">
+                                <div>Новый дизайн и чистый интерфейс</div>
                             </div>
-                            <div class="col-sm-6">
-                                <button type="submit" class="btn btn-default btn-block">Зарегестрироваться</button>
+                            <div class="advantagesItem col-sm-4">
+                                <img src="./assets/images/icon_2.png" alt="Легкое управление средствами">
+                                <div>Легкое управление средствами</div>
+                            </div>
+                            <div class="advantagesItem col-sm-4">
+                                <img src="./assets/images/icon_3.png" alt="Трехступенчатая защита платежных систем">
+                                <div>Трехступенчатая защита платежных систем</div>
                             </div>
                         </div>
-                    </form>
+                    </div>
+                </div>
+                
+                <div class="descWrapp">
+                    <div class="row">
+                        <div class="col-sm-12 sectionTitle text-center">
+                            <span>Кошелек нужен игроку</span>
+                            <span>
+                                <img src="./assets/images/logo_wormix.png" alt="Кошелек нужен игроку Wormix" />
+                            </span>
+                            <span>для...</span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-12 sectionDesc">
+                            Оплаты мобильного, покупок в соц. сетях и играх <b>без комиссии,</b><br />
+                            а также совершения любых платежей в Интернете быстро и удобно.
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <form class="col-sm-12 registrationForm" action="" method="POST">
+                            <div class="row">
+                                <div class="col-sm-6 form-group">
+                                    <input type="text" class="form-control" required name="registration[email]">
+                                </div>
+                                <div class="col-sm-6 form-group">
+                                    <button type="submit" class="btn btn-default btn-block">Зарегестрироваться</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
 
             </div>
@@ -129,7 +135,7 @@
         <footer class="footer hidden-xs">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-9">
+                    <div class="col-sm-9 footerNavs">
                         <nav>
                             <ul class="list-inline">
                                 <li>
@@ -199,7 +205,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-5">
+                    <div class="col-sm-6">
                         <div class="qiwiApps">
                             <ul class="list-inline opacityHover">
                                 <li>
@@ -220,7 +226,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-sm-7">
+                    <div class="col-sm-6">
                         <div class="paymentTypes">
                             <ul class="list-inline text-right opacityHover">
                                 <li>

@@ -172,12 +172,12 @@ select {
 }
 
 #advantagesCase .container {
-	max-width: 700px;
+	max-width: 730px;
 }
 
 .advantages {
 	margin-bottom: 70px;
-	display: table;
+	/*display: table;*/
 	width: 100%;
 	padding: 0;
 }
@@ -186,7 +186,7 @@ select {
 	color: #070e14;
 	line-height: 19px;
 	font-size: 14px;
-	display: table-cell;
+	/*display: table-cell;*/
 }
 
 .advantages .advantagesItem img {
@@ -342,6 +342,12 @@ ul.opacityHover.list-inline li a:hover img {
 	vertical-align: baseline;
 }
 
+@media (min-width: 768px) {
+	.registrationForm .form-group {
+		margin-bottom: 0px;
+	}
+}
+
 @media (max-width: 768px) {
 
 	body {
@@ -405,13 +411,17 @@ ul.opacityHover.list-inline li a:hover img {
 	}
 
 	#advantagesCase {
+		padding-top: 0px;
+	}
+	
+	#advantagesCase .advantagesWrapp {
 		padding-top: 5px;
 		background: #e3e3e3;
 	}
 
 	#advantagesCase .sectionTitle > span {
 		display: block;
-		font-size: 24px;
+		font-size: 32px;
 	}
 
 	.advantages {
@@ -420,12 +430,76 @@ ul.opacityHover.list-inline li a:hover img {
 	}
 
 	.advantages .advantagesItem img {
-		margin-bottom: 0px;
+		width: 64px;
+		margin-bottom: 5px;
 	}
 
 	.advantages .advantagesItem {
 		display: block;
 		font-size: 18px;
 		margin-bottom: 25px;
+	}
+
+	#advantagesCase .sectionDesc {
+		text-align: center;
+		font-size: 19px;
+		line-height: 21px;
+	}
+
+	.registrationForm .form-group {
+		margin-bottom: 35px;
+	}
+
+	.registrationForm input,
+	.registrationForm [type="submit"] {
+	  height: 65px;
+	}
+
+	.descWrapp {
+		padding-top: 15px;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 845px) {
+	
+	.footer .footerNavs {
+		width: 70%;
+	}
+
+	.footer .contacts {
+		width: 30%;
+	}
+}
+
+
+@media (max-height: 639px) {
+	#advantagesCase .sectionTitle > span {
+		font-size: 24px;
+	}
+
+	#advantagesCase .sectionDesc {
+		text-align: center;
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	.advantages .advantagesItem {
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+
+	.advantages .advantagesItem img {
+		margin-bottom: 2px;
+	}
+
+	.section .sectionTitle {
+		font-size: 28px;
+		line-height: 32px;
+	}
+
+	#mainCase {
+		margin-top: 15px;
+		margin-bottom: 20px;
 	}
 }
