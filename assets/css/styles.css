@@ -255,11 +255,14 @@ select {
 	color: #070e14;
 	line-height: 19px;
 	font-size: 14px;
+	width: 220px;
+	float: none;
+	display: inline-block;
 }
 
 .advantages .advantagesItem img {
 	width: 50px;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 }
 
 #advantagesCase .sectionTitle {

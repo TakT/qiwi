@@ -94,6 +94,7 @@
 		display: block;
 		font-size: 18px;
 		margin-bottom: 25px;
+		width: 100%;
 	}
 
 	#advantagesCase .sectionDesc {
@@ -136,7 +137,7 @@
 
 	#advantagesCase .sectionDesc {
 		text-align: center;
-		font-size: 16px;
+		font-size: 17px;
 		line-height: 19px;
 	}
 
@@ -157,6 +158,16 @@
 	#mainCase {
 		margin-top: 15px;
 		margin-bottom: 20px;
+	}
+}
+
+@media (max-height: 480px) {
+	#advantagesCase .sectionDesc {
+		margin-bottom: 35px;
+	}
+
+	#advantagesCase .sectionTitle {
+		margin-bottom: 35px;
 	}
 }
 
