@@ -117,6 +117,19 @@
 	}
 }
 
+@media (min-width: 730px) and (max-width: 768px) {
+	
+	#advantagesCase .container {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+	#advantagesCase .descWrapp {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}
+
 
 @media (min-width: 768px) and (max-width: 845px) {
 	
